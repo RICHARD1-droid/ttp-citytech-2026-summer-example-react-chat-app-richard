@@ -1,14 +1,68 @@
+h1{
+  font-size: 48px;
+  font-weight: 800;
+  font-family: 'Segoe UI';
+  color: rgb(0, 229, 255);
+}
+
+.clear-button {
+  font-size: 16px;
+  padding: 8px 16px;
+  border-radius: 0px;
+  color: var(--accent);
+  background: var(--accent-bg);
+  border: 2px solid transparent;
+  transition: border-color 0.3s;
+  margin-bottom: 24px;
+
+  &:hover {
+    border-color: var(--accent-border);
+  }
+  &:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+  }
+}
+
 .message {
+  display: flex;
+  space: 10px;
+  line-height: 2;
+  flex-direction: row;
+}
+
+.message-time {
   font-size: 20px;
-  border: 1px solid white;
-  border-radius: 8px;
+  font-weight: 400;
+  font-family: 'Segoe UI';
+  color: rgb(0, 187, 255);
+  margin-left: 20px;
+}
+
+.message-text {
+  font-size: 19px;
+  font-weight: 600;
+  font-family: 'Segoe UI';
+  border: 1px solid rgb(236, 175, 6);
+  border-radius: 1px;
+  border-width: 0px;
+  color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 0px rgb(0, 187, 255);
 
   background: var(--message-bg);
-  color: var(--text);
-  padding: 10px 15px;
-  border-radius: 8px;
-  margin-bottom: 10px;
+
+  padding: px 10px;
+
+  margin-bottom: 0px;
   max-width: 80%;
+}
+
+.message-name {
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Segoe UI';
+  color: rgb(254, 254, 254);
+  margin-bottom: 4px;
 }
 
 .counter {
