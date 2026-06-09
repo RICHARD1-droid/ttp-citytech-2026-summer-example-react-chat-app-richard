@@ -1,12 +1,8 @@
 import {useState} from 'react';
+import Message from './components/Message';
+import './App.css';
 
-const Message = ({text}) => {
-    return <>
-      <p>
-        {text}
-      </p>
-    </>;
-}
+
 
 const App = () => {
     //
