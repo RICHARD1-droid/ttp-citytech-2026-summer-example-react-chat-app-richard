@@ -26,7 +26,6 @@ h1{
 
 .message {
   display: flex;
-  space: 10px;
   line-height: 2;
   flex-direction: row;
 }

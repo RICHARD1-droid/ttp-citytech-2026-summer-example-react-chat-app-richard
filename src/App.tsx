@@ -1,21 +1,12 @@
 import {useState} from 'react';
 import Message from './components/Message';
+// @ts-ignore
 import './App.css';
 
 
 
 const App = () => {
-    //
-    // business logic
-    //
-
-    /*
-    const messages = [
-        "Argentina",
-        "Bolivia",
-        "Cambodia",
-    ];
-    */
+   
 
     interface MessageData {
     text: string;
